@@ -15,7 +15,7 @@ To Install:
 1. Find your Arduino folder in your Documents folder (where your sketches live).
 1. Inside it, there is a folder called "hardware".
 1. Inside the `Documents/Arduino/hardware` folder, git clone this repository \
-`git clone https://github.com/runger1101001/simplefoc_arduino_boards`
+`git clone https://github.com/simplefoc/simplefoc_arduino_boards.git`
 1. Start Ardunio IDE
 1. You can now choose "SimpleFOC Boards" in the boards menu.
 
