@@ -23,4 +23,4 @@ Alternatively you can also use the "Download as ZIP" option for this repository,
 
 # Boards included
 
-- SimpleFOC Lepton v2 by Valentine - STM32G031 32kB flash
+- SimpleFOC Lepton v2 by Valentine - STM32G031 64kB flash

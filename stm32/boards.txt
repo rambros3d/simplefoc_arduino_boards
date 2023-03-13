@@ -20,7 +20,7 @@ SimpleFOC.build.st_extra_flags=-D{build.product_line} {build.enable_usb} {build.
 SimpleFOC.upload.maximum_size=0
 SimpleFOC.upload.maximum_data_size=0
 
-SimpleFOC.menu.pnum.SIMPLEFOC_LEPTONG031=Lepton v2 STM32G031 (32kB)
+SimpleFOC.menu.pnum.SIMPLEFOC_LEPTONG031=Lepton v2 STM32G031 (64kB)
 SimpleFOC.menu.pnum.SIMPLEFOC_LEPTONG031.upload.maximum_data_size=8192
 SimpleFOC.menu.pnum.SIMPLEFOC_LEPTONG031.upload.maximum_size=65536
 SimpleFOC.menu.pnum.SIMPLEFOC_LEPTONG031.build.mcu=cortex-m0plus
