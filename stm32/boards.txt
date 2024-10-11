@@ -20,6 +20,7 @@ SimpleFOC.build.st_extra_flags=-D{build.product_line} {build.enable_usb} {build.
 SimpleFOC.upload.maximum_size=0
 SimpleFOC.upload.maximum_data_size=0
 
+# Lepton v2 STM32G031 (64kB)
 SimpleFOC.menu.pnum.SIMPLEFOC_LEPTONG031=Lepton v2 STM32G031 (64kB)
 SimpleFOC.menu.pnum.SIMPLEFOC_LEPTONG031.upload.maximum_data_size=8192
 SimpleFOC.menu.pnum.SIMPLEFOC_LEPTONG031.upload.maximum_size=65536
@@ -32,6 +33,19 @@ SimpleFOC.menu.pnum.SIMPLEFOC_LEPTONG031.build.variant_h=variant_SIMPLEFOC_LEPTO
 SimpleFOC.menu.pnum.SIMPLEFOC_LEPTONG031.build.cmsis_lib_gcc=arm_cortexM0l_math
 SimpleFOC.menu.pnum.SIMPLEFOC_LEPTONG031.build.st_extra_flags=-D{build.product_line} {build.xSerial} {build.simplefocdbg}
 
+# MicroSpora STM32G431CBU6
+SimpleFOC.menu.pnum.MICROSPORA_G431=MicroSpora G431
+SimpleFOC.menu.pnum.MICROSPORA_G431.upload.maximum_size=131072
+SimpleFOC.menu.pnum.MICROSPORA_G431.upload.maximum_data_size=32768
+SimpleFOC.menu.pnum.MICROSPORA_G431.build.mcu=cortex-m4
+SimpleFOC.menu.pnum.MICROSPORA_G431.build.board=MICROSPORA_G431
+SimpleFOC.menu.pnum.MICROSPORA_G431.build.series=STM32G4xx
+SimpleFOC.menu.pnum.MICROSPORA_G431.build.product_line=STM32G431xx
+SimpleFOC.menu.pnum.MICROSPORA_G431.build.variant=MICROSPORA_G431
+SimpleFOC.menu.pnum.MICROSPORA_G431.build.variant_h=variant_MICROSPORA_G431.h
+#SimpleFOC.menu.pnum.MICROSPORA_G431.build.cmsis_lib_gcc=arm_cortexM4l_math
+SimpleFOC.menu.pnum.MICROSPORA_G431.build.st_extra_flags=-D{build.product_line} {build.xSerial} {build.simplefocdbg}
+
 build.simplefocdbg=
 SimpleFOC.menu.simplefocdbg.none=Disabled
 SimpleFOC.menu.simplefocdbg.none.build.simplefocdbg=
@@ -43,6 +57,11 @@ SimpleFOC.menu.upload_method.swdMethod=STM32CubeProgrammer (SWD)
 SimpleFOC.menu.upload_method.swdMethod.upload.protocol=0
 SimpleFOC.menu.upload_method.swdMethod.upload.options=-g
 SimpleFOC.menu.upload_method.swdMethod.upload.tool=STMicroelectronics:stm32CubeProg
+
+SimpleFOC.menu.upload_method.dfuMethod=STM32CubeProgrammer (DFU)
+SimpleFOC.menu.upload_method.dfuMethod.upload.protocol=dfu
+SimpleFOC.menu.upload_method.dfuMethod.upload.options=-v {upload.vid} -p {upload.pid}
+SimpleFOC.menu.upload_method.dfuMethod.upload.tool=STMicroelectronics:stm32CubeProg
 
 SimpleFOC.menu.xserial.generic=Enabled (generic 'Serial')
 SimpleFOC.menu.xserial.none=Enabled (no generic 'Serial')
