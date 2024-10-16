@@ -43,7 +43,7 @@ SimpleFOC.menu.pnum.MICROSPORA_G431.build.series=STM32G4xx
 SimpleFOC.menu.pnum.MICROSPORA_G431.build.product_line=STM32G431xx
 SimpleFOC.menu.pnum.MICROSPORA_G431.build.variant=MICROSPORA_G431
 SimpleFOC.menu.pnum.MICROSPORA_G431.build.variant_h=variant_MICROSPORA_G431.h
-#SimpleFOC.menu.pnum.MICROSPORA_G431.build.cmsis_lib_gcc=arm_cortexM4l_math
+SimpleFOC.menu.pnum.MICROSPORA_G431.build.cmsis_lib_gcc=arm_cortexM4l_math
 SimpleFOC.menu.pnum.MICROSPORA_G431.build.st_extra_flags=-D{build.product_line} {build.xSerial} {build.simplefocdbg}
 
 build.simplefocdbg=
