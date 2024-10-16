@@ -162,16 +162,8 @@
 #define SERIAL_UART_INSTANCE 101
 #endif
 
-/*
-// Default pin used for generic 'Serial' instance
-// Mandatory for Firmata
-#ifndef PIN_SERIAL_RX
-  #define PIN_SERIAL_RX         PA3
-#endif
-#ifndef PIN_SERIAL_TX
-  #define PIN_SERIAL_TX         PA2
-#endif
-*/
+/* HAL configuration */
+#define HSE_VALUE (16000000UL)
 
 // Extra HAL modules
 #if !defined(HAL_DAC_MODULE_DISABLED)
