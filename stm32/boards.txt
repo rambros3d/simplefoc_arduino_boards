@@ -38,13 +38,20 @@ SimpleFOC.menu.pnum.MICROSPORA_G431=MicroSpora G431
 SimpleFOC.menu.pnum.MICROSPORA_G431.upload.maximum_size=131072
 SimpleFOC.menu.pnum.MICROSPORA_G431.upload.maximum_data_size=32768
 SimpleFOC.menu.pnum.MICROSPORA_G431.build.mcu=cortex-m4
+SimpleFOC.menu.pnum.MICROSPORA_G431.build.fpu=-mfpu=fpv4-sp-d16
+SimpleFOC.menu.pnum.MICROSPORA_G431.build.float-abi=-mfloat-abi=hard
 SimpleFOC.menu.pnum.MICROSPORA_G431.build.board=MICROSPORA_G431
 SimpleFOC.menu.pnum.MICROSPORA_G431.build.series=STM32G4xx
 SimpleFOC.menu.pnum.MICROSPORA_G431.build.product_line=STM32G431xx
 SimpleFOC.menu.pnum.MICROSPORA_G431.build.variant=MICROSPORA_G431
 SimpleFOC.menu.pnum.MICROSPORA_G431.build.variant_h=variant_MICROSPORA_G431.h
-SimpleFOC.menu.pnum.MICROSPORA_G431.build.cmsis_lib_gcc=arm_cortexM4l_math
+#SimpleFOC.menu.pnum.MICROSPORA_G431.build.cmsis_lib_gcc=arm_cortexM4l_math
 SimpleFOC.menu.pnum.MICROSPORA_G431.build.st_extra_flags=-D{build.product_line} {build.xSerial} {build.simplefocdbg}
+SimpleFOC.menu.pnum.MICROSPORA_G431.build.flash_offset=0x0
+SimpleFOC.menu.pnum.MICROSPORA_G431.debug.svd_file={runtime.tools.STM32_SVD.path}/svd/STM32G4xx/STM32G431.svd
+SimpleFOC.menu.pnum.MICROSPORA_G431.debug.server.openocd.scripts.2=target/stm32g4x.cfg
+SimpleFOC.menu.pnum.MICROSPORA_G431.vid.0=0x0483
+SimpleFOC.menu.pnum.MICROSPORA_G431.pid.0=0x5740
 
 build.simplefocdbg=
 SimpleFOC.menu.simplefocdbg.none=Disabled
