@@ -31,7 +31,8 @@ SimpleFOC.menu.pnum.SIMPLEFOC_LEPTONG031.build.product_line=STM32G031xx
 SimpleFOC.menu.pnum.SIMPLEFOC_LEPTONG031.build.variant=SIMPLEFOC_LEPTONG031
 SimpleFOC.menu.pnum.SIMPLEFOC_LEPTONG031.build.variant_h=variant_SIMPLEFOC_LEPTONG031.h
 SimpleFOC.menu.pnum.SIMPLEFOC_LEPTONG031.build.cmsis_lib_gcc=arm_cortexM0l_math
-SimpleFOC.menu.pnum.SIMPLEFOC_LEPTONG031.build.st_extra_flags=-D{build.product_line} {build.xSerial} {build.simplefocdbg}
+SimpleFOC.menu.pnum.SIMPLEFOC_LEPTONG031.build.st_extra_flags=-D{build.product_line} {build.xSerial} {build.simplefocdbg} -D__CORTEX_SC=0
+SimpleFOC.menu.pnum.SIMPLEFOC_LEPTONG031.build.flash_offset=0x0
 
 # MicroSpora STM32G431CBU6
 SimpleFOC.menu.pnum.MICROSPORA_G431=MicroSpora G431
